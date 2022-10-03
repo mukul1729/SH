@@ -1,0 +1,118 @@
+************************************************************
+*                                                          *
+*                  The Verdana wrapper                     *
+*                                                          *
+************************************************************
+                                                Walter Daems 
+                                    walter.daems(at)ieee.org
+
+'Verdana' is a common font that can be downloaded from:
+http://prdownloads.sourceforge.net/corefonts/verdan32.exe?download
+
+The font is readily available on machines with a Microsoft
+operating system and can be downloaded on non MS-machines
+(check the documentation for this).
+
+The wrapper provides a T1 encoded font.
+No effort has been spent on making the font ready for use in
+math expressions. If anyone wants to take this on, please 
+let me know.
+
+The package has an option 'nofligs' to avoid f-ligature 
+problems with the more recent Verdana versions (v2008 and 
+v2010).
+
+This distribution comprises:
+
+* the TeX and Adobe font metrics,
+
+* the LaTeX macro package verdana.sty and the related font
+  definition file
+
+The distribution does not comprise:
+
+* the TTF files themselves;
+  You can download them from:
+  http://prdownloads.sourceforge.net/corefonts/verdan32.exe?download
+
+To install, move all files to the corresponding directories
+of your TeX system.  
+
+Documentation regarding the use of the fonts can be found in
+the document verdana.pdf.
+
+TDS
+===
+A TDS version of this package could be layed out as follows:
+TDS
+|-- doc
+|   `-- latex
+|       `-- verdana
+|           `-- verdana.pdf
+|-- fonts
+|   |-- afm
+|   |   `-- ms
+|   |       `-- verdana
+|   |           |-- vnabit8t.afm
+|   |           |-- vnabn8t.afm
+|   |           |-- vnamit8t.afm
+|   |           |-- vnamn8t.afm
+|   |           |-- vnamsc8t.afm
+|   |           `-- vnamsl8t.afm
+|   |-- enc
+|   |   `-- pdftex
+|   |       `-- T1-WGL4.enc
+|   |-- map
+|   |   `-- pdftex
+|   |       `-- ms
+|   |           `-- verdana
+|   |               `-- verdana.map
+|   |-- tfm
+|   |   `-- ms
+|   |       `-- verdana
+|   |           |-- vnabit8t.tfm
+|   |           |-- vnabn8t.tfm
+|   |           |-- vnamit8t.tfm
+|   |           |-- vnamn8t.tfm
+|   |           |-- vnamsc8t.tfm
+|   |           `-- vnamsl8t.tfm
+|   `-- truetype
+|       `-- ms
+|           `-- verdana 
+|               (put your ttf files here)
+|-- source
+|   `-- latex
+|       `-- verdana
+|           |-- verdana.dtx
+|           `-- verdana.ins
+`-- tex
+    `-- latex
+        `-- verdana
+            |-- t1vna.fd
+	    |-- t1vnax.fd	
+            `-- verdana.sty
+
+License
+=======
+All files are subject to the LPPL.
+
+History
+=======
+*** v1.0 - 2011/03/08 ***
+
+   - Initial version
+
+*** v1.1 - 2011/03/17 ***
+
+   - Added comment to documentation on how to install fonts
+   - Made package compliant to CTAN TDS guidelines
+   - Solved ligature problems for more recent Verdana releases
+
+*** v1.2 - 2015/12/30 ***
+
+   - Added explicit T1 encoding in example
+   - Added extra note about font installation
+
+*** v1.2b - 2016/01/08 ***
+
+   - Urgent bugfix: avoid \typeout stuff in map file

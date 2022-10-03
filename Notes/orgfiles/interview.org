@@ -1,0 +1,12 @@
+* To Study
++ Complete CTCI atleast
++ Object oriented programming
++ DBMS
++ C# and .NET MVC
++ Javascript and query
++ API design and system design
++ Sql advanced
++ Go through coding-engine
++ System Design is a must too
++ Learn some C++ and JAVA
++ Operating systems

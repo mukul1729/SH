@@ -1,0 +1,12 @@
+{
+	"authors": [
+		"mukul"
+	],
+	"copyright": "Copyright © 2021, mukul",
+	"dependencies": {
+		"dgame": "~>0.6.7"
+	},
+	"description": "derelict-sdl2",
+	"license": "proprietary",
+	"name": "project"
+}

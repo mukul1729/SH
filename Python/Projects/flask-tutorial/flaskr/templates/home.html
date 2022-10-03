@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<title>had</title>
+	</head>
+    <body>
+        <h1>Headines</h1>
+		<form action="/" method="POST">
+			<input type="text" name="temp" placeholder="search"/>
+			<input type="submit" value="Submit">
+		</form>
+		{% for a in article %}
+		<b><a href="{{a.link}}">{{a.title}}</a></b><br />
+			<i>{{a.published}}</i><br />
+			<p>{{a.summary}}</p>
+			<hr/>
+		{% endfor %}
+    </body>
+</html>

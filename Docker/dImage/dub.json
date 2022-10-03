@@ -1,0 +1,9 @@
+{
+	"authors": [
+		"mukul"
+	],
+	"copyright": "Copyright © 2022, mukul",
+	"description": "A minimal D application.",
+	"license": "proprietary",
+	"name": "dimage"
+}

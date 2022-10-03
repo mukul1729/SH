@@ -1,0 +1,10 @@
+\addvspace {10\p@ }
+\contentsline {xchapter}{Analysing Time Complexity}{7}{}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces \textsf {Results of an experimental study on the running time of an algorithm. A dot with coordinates $(n,t)$ indicates that on an input of size $n$, the running time of the algorithm was measured as $t$ milliseconds (ms).}\relax }}{8}{}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces \textsf { The difference between best-case and worst-case time. Each bar represents the running time of some algorithm on a different possible input.}\relax }}{9}{}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Output of Listing 1.1\relax }}{10}{}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Stacks}{11}{}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces \textsf {Output of listing 2.2}\relax }}{14}{}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{new}{15}{}%

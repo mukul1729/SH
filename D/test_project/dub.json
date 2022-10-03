@@ -1,0 +1,13 @@
+{
+	"authors": [
+		"mukul"
+	],
+	"copyright": "Copyright © 2022, mukul",
+	"dependencies": {
+		"dgame": "~>0.6.7",
+		"dsfml": "~>2.1.1"
+	},
+	"description": "a simple game",
+	"license": "proprietary",
+	"name": "game"
+}

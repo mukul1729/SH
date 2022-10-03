@@ -1,0 +1,150 @@
+# dune exec ./helloworld
+# OCAMLPARAM: unset
+# Workspace root: /home/mukul/Documents/SH/OCaml
+$ /usr/bin/nproc > /tmp/dune2d3cf0.output 2> /dev/null
+# Auto-detected concurrency: 8
+# disable binary cache
+$ /usr/bin/ocamlc.opt -config > /tmp/dune9a2b23.output
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dyn
+#  ; merlin = true
+#  ; for_host = None
+#  ; fdo_target_exe = None
+#  ; build_dir = "default"
+#  ; toplevel_path = Some External "/home/mukul/.opam/default/lib/toplevel"
+#  ; ocaml_bin = External "/usr/bin"
+#  ; ocaml = Ok External "/home/mukul/.opam/default/bin/ocaml"
+#  ; ocamlc = External "/usr/bin/ocamlc.opt"
+#  ; ocamlopt = Ok External "/usr/bin/ocamlopt.opt"
+#  ; ocamldep = Ok External "/usr/bin/ocamldep.opt"
+#  ; ocamlmklib = Ok External "/usr/bin/ocamlmklib.opt"
+#  ; env =
+#      map
+#        { "DUNE_OCAML_HARDCODED" : "/home/mukul/.opam/default/lib"
+#        ; "DUNE_OCAML_STDLIB" : "/usr/lib/ocaml"
+#        ; "DUNE_SOURCEROOT" : "/home/mukul/Documents/SH/OCaml"
+#        ; "INSIDE_DUNE" : "/home/mukul/Documents/SH/OCaml/_build/default"
+#        ; "OCAMLFIND_IGNORE_DUPS_IN" :
+#            "/home/mukul/Documents/SH/OCaml/_build/install/default/lib"
+#        ; "OCAMLPATH" :
+#            "/home/mukul/Documents/SH/OCaml/_build/install/default/lib"
+#        ; "OCAMLTOP_INCLUDE_PATH" :
+#            "/home/mukul/Documents/SH/OCaml/_build/install/default/lib/toplevel"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; findlib_path = [ External "/home/mukul/.opam/default/lib" ]
+#  ; arch_sixtyfour = true
+#  ; natdynlink_supported = true
+#  ; supports_shared_libraries = true
+#  ; ocaml_config =
+#      { version = "4.13.1"
+#      ; standard_library_default = "/usr/lib/ocaml"
+#      ; standard_library = "/usr/lib/ocaml"
+#      ; standard_runtime = "the_standard_runtime_variable_was_deleted"
+#      ; ccomp_type = "cc"
+#      ; c_compiler = "cc"
+#      ; ocamlc_cflags =
+#          [ "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-pthread"
+#          ; "-fPIC"
+#          ; "-fstack-clash-protection"
+#          ; "-D_FORTIFY_SOURCE=2"
+#          ; "-mtune=generic"
+#          ; "-O2"
+#          ; "-pipe"
+#          ; "-g"
+#          ]
+#      ; ocamlc_cppflags = [ "-D_FILE_OFFSET_BITS=64" ]
+#      ; ocamlopt_cflags =
+#          [ "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-pthread"
+#          ; "-fPIC"
+#          ; "-fstack-clash-protection"
+#          ; "-D_FORTIFY_SOURCE=2"
+#          ; "-mtune=generic"
+#          ; "-O2"
+#          ; "-pipe"
+#          ; "-g"
+#          ]
+#      ; ocamlopt_cppflags = [ "-D_FILE_OFFSET_BITS=64" ]
+#      ; bytecomp_c_compiler =
+#          [ "cc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-pthread"
+#          ; "-fPIC"
+#          ; "-fstack-clash-protection"
+#          ; "-D_FORTIFY_SOURCE=2"
+#          ; "-mtune=generic"
+#          ; "-O2"
+#          ; "-pipe"
+#          ; "-g"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ]
+#      ; bytecomp_c_libraries = [ "-lm"; "-ldl"; "-lpthread" ]
+#      ; native_c_compiler =
+#          [ "cc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-pthread"
+#          ; "-fPIC"
+#          ; "-fstack-clash-protection"
+#          ; "-D_FORTIFY_SOURCE=2"
+#          ; "-mtune=generic"
+#          ; "-O2"
+#          ; "-pipe"
+#          ; "-g"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ]
+#      ; native_c_libraries = [ "-lm"; "-ldl" ]
+#      ; cc_profile = []
+#      ; architecture = "amd64"
+#      ; model = "default"
+#      ; int_size = 63
+#      ; word_size = 64
+#      ; system = "linux"
+#      ; asm = [ "as" ]
+#      ; asm_cfi_supported = true
+#      ; with_frame_pointers = false
+#      ; ext_exe = ""
+#      ; ext_obj = ".o"
+#      ; ext_asm = ".s"
+#      ; ext_lib = ".a"
+#      ; ext_dll = ".so"
+#      ; os_type = "Unix"
+#      ; default_executable_name = "a.out"
+#      ; systhread_supported = true
+#      ; host = "x86_64-unknown-linux-gnu"
+#      ; target = "x86_64-unknown-linux-gnu"
+#      ; profiling = false
+#      ; flambda = false
+#      ; spacetime = false
+#      ; safe_string = true
+#      ; exec_magic_number = "Caml1999X030"
+#      ; cmi_magic_number = "Caml1999I030"
+#      ; cmo_magic_number = "Caml1999O030"
+#      ; cma_magic_number = "Caml1999A030"
+#      ; cmx_magic_number = "Caml1999Y030"
+#      ; cmxa_magic_number = "Caml1999Z030"
+#      ; ast_impl_magic_number = "Caml1999M030"
+#      ; ast_intf_magic_number = "Caml1999N030"
+#      ; cmxs_magic_number = "Caml1999D030"
+#      ; cmt_magic_number = "Caml1999T030"
+#      ; natdynlink_supported = true
+#      ; supports_shared_libraries = true
+#      ; windows_unicode = false
+#      }
+#  }
+# Workspace root: /home/mukul/Documents/SH/OCaml
+$ (cd _build/default && /usr/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -I helloworld/.helloworld.eobjs/byte -no-alias-deps -opaque -o helloworld/.helloworld.eobjs/byte/dune__exe__Helloworld.cmo -c -impl helloworld/helloworld.ml)
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -I helloworld/.helloworld.eobjs/byte -I helloworld/.helloworld.eobjs/native -intf-suffix .ml -no-alias-deps -opaque -o helloworld/.helloworld.eobjs/native/dune__exe__Helloworld.cmx -c -impl helloworld/helloworld.ml)
+$ (cd _build/default && /usr/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -o helloworld/helloworld.exe helloworld/.helloworld.eobjs/native/dune__exe__Helloworld.cmx)

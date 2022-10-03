@@ -1,0 +1,11 @@
+\contentsline {chapter}{\numberline {1}Analysing Time Complexity}{7}{}%
+\contentsline {section}{\numberline {1.1}Introduction}{8}{}%
+\contentsline {section}{\numberline {1.2}Counting Primitive Operations}{9}{}%
+\contentsline {section}{\numberline {1.3}Functions used in Analysis of Algorithms}{10}{}%
+\contentsline {chapter}{\numberline {2}Stacks}{11}{}%
+\contentsline {section}{\numberline {2.1}Introduction}{12}{}%
+\contentsline {section}{\numberline {2.2}Basic Functions that Stack supports}{12}{}%
+\contentsline {section}{\numberline {2.3}Implementation of Stack}{12}{}%
+\contentsline {paragraph}{Exception Class}{12}{}%
+\contentsline {chapter}{\numberline {3}new}{15}{}%
+\contentsline {section}{\numberline {3.1}new1}{15}{}%

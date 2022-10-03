@@ -1,0 +1,12 @@
+{
+	"authors": [
+		"mukul"
+	],
+	"copyright": "Copyright © 2021, mukul",
+	"dependencies": {
+		"vibe-d": "~>0.9.4"
+	},
+	"description": "A minimal D application.",
+	"license": "proprietary",
+	"name": "hello"
+}

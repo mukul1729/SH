@@ -1,0 +1,28 @@
+.
+[     144424]  verdana.pdf
+[       2523]  verdana.ins
+[      12605]  verdana.dtx
+[       4096]  tfm
+[       3832]  vnaxmn8t.tfm
+[       1872]  vnaxmit8t.tfm
+[       1740]  vnaxbn8t.tfm
+[       1896]  vnaxbit8t.tfm
+[       3840]  vnamn8t.tfm
+[       1880]  vnamit8t.tfm
+[       1748]  vnabn8t.tfm
+[       1904]  vnabit8t.tfm
+[       3667]  T1-WGL4.enc
+[       3138]  README
+[        694]  manifest.txt
+[        476]  LICENSE
+[       4096]  afm
+[      52468]  vnaxmn8t.afm
+[      44072]  vnaxmit8t.afm
+[      43984]  vnaxbn8t.afm
+[      44149]  vnaxbit8t.afm
+[      52468]  vnamn8t.afm
+[      44072]  vnamit8t.afm
+[      43984]  vnabn8t.afm
+[      44149]  vnabit8t.afm
+
+2 directories, 23 files

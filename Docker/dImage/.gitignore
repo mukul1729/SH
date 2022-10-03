@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/dimage
+dimage.so
+dimage.dylib
+dimage.dll
+dimage.a
+dimage.lib
+dimage-test-*
+*.exe
+*.o
+*.obj
+*.lst

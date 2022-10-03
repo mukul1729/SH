@@ -1,0 +1,12 @@
+{
+	"authors": [
+		"mukul"
+	],
+	"copyright": "Copyright © 2022, mukul",
+	"dependencies": {
+		"raylib-d": "~>4.0.0"
+	},
+	"description": "game",
+	"license": "proprietary",
+	"name": "newpro"
+}
